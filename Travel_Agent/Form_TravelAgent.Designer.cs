@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_TravelAgent));
             this.menuStrip_Main = new System.Windows.Forms.MenuStrip();
             this.設定ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Config_DB = new System.Windows.Forms.ToolStripMenuItem();
@@ -117,6 +118,7 @@
             // 
             // button_AddSelection
             // 
+            this.button_AddSelection.Image = ((System.Drawing.Image)(resources.GetObject("button_AddSelection.Image")));
             this.button_AddSelection.Location = new System.Drawing.Point(455, 41);
             this.button_AddSelection.Name = "button_AddSelection";
             this.button_AddSelection.Size = new System.Drawing.Size(80, 564);
