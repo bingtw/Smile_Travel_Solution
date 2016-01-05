@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bingtw/Smile_Travel_Solution.svg?branch=master)](https://travis-ci.org/bingtw/Smile_Travel_Solution)
+
 # Smile_Travel_Solution
 C#.NET, Windows Form
 
