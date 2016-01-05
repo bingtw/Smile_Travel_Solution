@@ -1,2 +1,12 @@
+# basic config
 language: csharp
 solution: Smile_Travel_Solution.sln
+
+# deploy config
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
