@@ -10,5 +10,6 @@ deploy:
     - "Travel_Agent/bin/Release/ClosedXML.dll"
     - "Travel_Agent/bin/Release/DocumentFormat.OpenXml.dll"
     - "Travel_Agent/bin/Release/NLog.dll"
+  skip_cleanup: true
   on:
     repo: bingtw/Smile_Travel_Solution
