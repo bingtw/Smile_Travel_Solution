@@ -2,7 +2,7 @@ language: csharp
 solution: Smile_Travel_Solution.sln
 
 before_deploy: 
-  - - chmod +x ./pre_deploy.sh
+  - chmod +x ./pre_deploy.sh
   - ./pre_deploy.sh
 deploy:
   provider: releases
@@ -12,4 +12,4 @@ deploy:
     - "binaries.zip"
   skip_cleanup: true
   on:
-    repo: bingtw/Smile_Travel_Solution
+    tags: true
