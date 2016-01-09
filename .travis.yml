@@ -1,8 +1,7 @@
 language: csharp
 solution: Smile_Travel_Solution.sln
 
-before_deploy: 
-  - ./pre_deploy.sh
+before_deploy: ./pre_deploy.sh
 deploy:
   provider: releases
   api_key:
